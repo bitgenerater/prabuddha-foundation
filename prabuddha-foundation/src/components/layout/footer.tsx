@@ -16,13 +16,15 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold text-slate-800">Contact</h4>
           <p className="mt-2 text-sm text-slate-700">
-            Prabudda Temple Road,
+            Udugama Pansala,
             <br />
-            [City], Sri Lanka
+            Asgiri maha viharaya, Asgiriya
+             <br />
+            Kandy, Sri Lanka.
             <br />
-            Phone: +94 XX XXX XXXX
+            Phone: +94 78 123 4567
             <br />
-            Email: info@prabudda.org
+            Email: contact@prabudda.lk
           </p>
         </div>
         <div>
@@ -46,7 +48,9 @@ export function Footer() {
       <div className="border-t border-prabudda-gold/20 bg-prabudda-cream/80">
         <div className="container flex flex-col items-center justify-between gap-2 py-4 text-xs text-slate-600 md:flex-row">
           <span>© {new Date().getFullYear()} Prabudda Foundation. All rights reserved.</span>
-          <span>Designed & developed with compassion.</span>
+          <span>Designed & developed with <Link  href="https://sentrue.com" className="text-prabudda-maroon hover:underline">
+            Sentrue Labs
+          </Link>.</span>
         </div>
       </div>
     </footer>
